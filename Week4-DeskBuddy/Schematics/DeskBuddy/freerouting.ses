@@ -1,0 +1,267 @@
+(session freerouting.ses
+  (base_design freerouting.dsn)
+  (placement
+    (resolution um 10)
+    (component "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+      (place C1 642500 -472500 front 0)
+    )
+    (component "HackclubFootprint:Waveshare ESP32-S3-Zero"
+      (place U1 500000 -325000 front 0)
+    )
+    (component "Button_Switch_THT:SW_PUSH_6mm"
+      (place SW1 787500 -377500 front 0)
+    )
+    (component "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
+      (place JSCREEN1 645000 -237500 front 0)
+    )
+    (component "TerminalBlock_CUI:TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal"
+      (place J5 789200 -540000 front 0)
+    )
+    (component "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+      (place J4SERVO3 652100 -565000 front 90)
+      (place J3SERVO2 542100 -562500 front 90)
+      (place J2SERVO1 427100 -557500 front 90)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "10.0.6")
+    )
+    (library_out 
+      (padstack "Via[0-1]_600:300_um"
+        (shape
+          (circle F.Cu 6000 0 0)
+        )
+        (shape
+          (circle B.Cu 6000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "Net-(J2SERVO1-Pin_3)"
+        (wire
+          (path B.Cu 2000
+            645000 -237500
+            645000 -249017
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            645000 -249017
+            647879 -249017
+            677500 -278638
+            677500 -472500
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            852500 -377500
+            839038 -390962
+            839038 -539038
+            840000 -540000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            852500 -377500
+            787500 -377500
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            645000 -237500
+            435100 -237500
+            423800 -248800
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            840000 -540000
+            815000 -565000
+            702900 -565000
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            646650 -508750
+            677500 -477900
+            677500 -472500
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            592900 -562500
+            646650 -508750
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            702900 -565000
+            646650 -508750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            477900 -557500
+            484512 -550888
+            581288 -550888
+            592900 -562500
+          )
+        )
+      )
+      (net "Net-(J2SERVO1-Pin_2)"
+        (wire
+          (path F.Cu 2000
+            567500 -574117
+            567500 -562500
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            677500 -565000
+            665838 -576662
+            570045 -576662
+            567500 -574117
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            567500 -574117
+            469117 -574117
+            452500 -557500
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            677500 -565000
+            702500 -540000
+            789200 -540000
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            567500 -562500
+            642500 -487500
+            642500 -472500
+          )
+        )
+      )
+      (net "Net-(J2SERVO1-Pin_1)"
+        (wire
+          (path B.Cu 2000
+            427100 -557500
+            427100 -545983
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            427100 -545983
+            413211 -532094
+            413211 -386389
+            423800 -375800
+          )
+        )
+      )
+      (net "Net-(J3SERVO2-Pin_1)"
+        (wire
+          (path B.Cu 2000
+            542100 -562500
+            542100 -519500
+            423800 -401200
+          )
+        )
+      )
+      (net "Net-(J4SERVO3-Pin_1)"
+        (wire
+          (path B.Cu 2000
+            652100 -565000
+            640583 -565000
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            640583 -565000
+            631566 -574017
+            532273 -574017
+            423800 -465544
+            423800 -426600
+          )
+        )
+      )
+      (net "Net-(JSCREEN1-Pin_5)"
+        (wire
+          (path B.Cu 2000
+            645000 -339100
+            612900 -339100
+            576200 -375800
+          )
+        )
+      )
+      (net "Net-(JSCREEN1-Pin_4)"
+        (wire
+          (path F.Cu 2000
+            645000 -313700
+            587500 -313700
+            576200 -325000
+          )
+        )
+      )
+      (net "Net-(JSCREEN1-Pin_2)"
+        (wire
+          (path F.Cu 2000
+            645000 -262900
+            435100 -262900
+            423800 -274200
+          )
+        )
+      )
+      (net "Net-(JSCREEN1-Pin_3)"
+        (wire
+          (path F.Cu 2000
+            645000 -288300
+            587500 -288300
+            576200 -299600
+          )
+        )
+      )
+      (net "Net-(JSCREEN1-Pin_7)"
+        (wire
+          (path F.Cu 2000
+            645000 -389900
+            587500 -389900
+            576200 -401200
+          )
+        )
+      )
+      (net "Net-(JSCREEN1-Pin_6)"
+        (wire
+          (path F.Cu 2000
+            645000 -364500
+            590300 -364500
+            576200 -350400
+          )
+        )
+      )
+      (net "Net-(U1-GP7)"
+        (wire
+          (path F.Cu 2000
+            787500 -422500
+            580300 -422500
+            576200 -426600
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            852500 -422500
+            787500 -422500
+          )
+        )
+      )
+    )
+  )
+)
