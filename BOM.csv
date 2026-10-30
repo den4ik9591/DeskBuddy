@@ -1,3 +1,4 @@
 Item,Qty,Supplier,Cost/item,Total Cost,link
 pcb,1,JLCPCB,$4.00,$4.00,https://cart.jlcpcb.com/quote?stencilLayer=2&stencilWidth=100&stencilLength=100&stencilCounts=5&plateType=1&spm=Jlcpcb.Homepage.1010
+Waveshare ESP32-S3-Zero,1,aliexpress,$9.70,$9.70,https://a.aliexpress.com/_EJDoUBo
 Estimated total shipping,1,,,$0.00,
